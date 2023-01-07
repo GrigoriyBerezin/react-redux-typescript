@@ -14,6 +14,7 @@ export const githubApi = createApi({
         params: {
           q: search,
           per_page: 10
+
         }
       })
     })
